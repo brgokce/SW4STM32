@@ -1,0 +1,6 @@
+10:56:27 **** Clean-only build of configuration Debug for project F103_BAHAR_Vize ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+
+10:56:27 Build Finished (took 212ms)
+

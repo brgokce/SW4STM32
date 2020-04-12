@@ -1,0 +1,6 @@
+10:56:52 **** Clean-only build of configuration Debug for project F103_I2C_MASTER_ADC2_IT ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+
+10:56:52 Build Finished (took 204ms)
+

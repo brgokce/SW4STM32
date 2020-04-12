@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\SW4STM32_WORKSPACE\F103_BAHAR_FINAL_ENKODER_I2C-2"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_BAHAR_FINAL_ENKODER_I2C-1"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_I2C_MASTER_ADC"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_I2C_SLAVE_USART"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_I2C_MASTER"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_TIM_OUTPUT_COMPARE_TOGGLE"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_TIM_TIME_BASE_INTERRUPT"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_TIM_INPUT_CAPTURE"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_BAHAR_VIZE_TIM_DMA"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_TIM_PWM_INPUT"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_TIM_ENCODER_2"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_TIM_ENCODER_1"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_VIZE_SORU_ORNEGI"/>
+			<item value="C:\SW4STM32_WORKSPACE\PWM_MOTOR_CONTROL"/>
+			<item value="C:\SW4STM32_WORKSPACE\F103_TIMER_PWM_OUTPUT"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="619" key="DIALOG_X_ORIGIN"/>
+		<item value="274" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

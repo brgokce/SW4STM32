@@ -1,0 +1,7 @@
+10:56:59 **** Clean-only build of configuration Debug for project F103_I2C_SLAVE_USART2_IT ****
+make clean 
+rm -rf *
+ 
+
+10:57:00 Build Finished (took 465ms)
+

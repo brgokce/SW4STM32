@@ -1,0 +1,395 @@
+10:33:11 **** Incremental Build of configuration Debug for project TIMER_PWM_MOTOR_MANUAL ****
+make -j12 all 
+Building file: ../startup/startup_stm32.s
+Building file: ../src/main.c
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+Building file: ../src/stm32f1xx_it.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-as -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -g -o "startup/startup_stm32.o" "../startup/startup_stm32.s"
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/stm32f1xx_it.d" -MT"src/stm32f1xx_it.o" -o "src/stm32f1xx_it.o" "../src/stm32f1xx_it.c"
+Building file: ../src/syscalls.c
+Invoking: MCU GCC Compiler
+Building file: ../src/system_stm32f1xx.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/syscalls.d" -MT"src/syscalls.o" -o "src/syscalls.o" "../src/syscalls.c"
+Invoking: MCU GCC Compiler
+Finished building: ../startup/startup_stm32.s
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/system_stm32f1xx.d" -MT"src/system_stm32f1xx.o" -o "src/system_stm32f1xx.o" "../src/system_stm32f1xx.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal.c
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_adc.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal.d" -MT"HAL_Driver/Src/stm32f1xx_hal.o" -o "HAL_Driver/Src/stm32f1xx_hal.o" "../HAL_Driver/Src/stm32f1xx_hal.c"
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_adc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_adc.o" -o "HAL_Driver/Src/stm32f1xx_hal_adc.o" "../HAL_Driver/Src/stm32f1xx_hal_adc.c"
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_adc_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_adc_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_adc_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_adc_ex.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_cec.c
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_cortex.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_cec.d" -MT"HAL_Driver/Src/stm32f1xx_hal_cec.o" -o "HAL_Driver/Src/stm32f1xx_hal_cec.o" "../HAL_Driver/Src/stm32f1xx_hal_cec.c"
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_cortex.o" -o "HAL_Driver/Src/stm32f1xx_hal_cortex.o" "../HAL_Driver/Src/stm32f1xx_hal_cortex.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_crc.c
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_dac.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_crc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_crc.o" -o "HAL_Driver/Src/stm32f1xx_hal_crc.o" "../HAL_Driver/Src/stm32f1xx_hal_crc.c"
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_dac.d" -MT"HAL_Driver/Src/stm32f1xx_hal_dac.o" -o "HAL_Driver/Src/stm32f1xx_hal_dac.o" "../HAL_Driver/Src/stm32f1xx_hal_dac.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_dac_ex.c
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_dac_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_dac_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_dac_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_dac_ex.c"
+Finished building: ../src/main.c
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_dma.c
+Finished building: ../src/stm32f1xx_it.c
+Finished building: ../src/syscalls.c
+Invoking: MCU GCC Compiler
+ 
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"HAL_Driver/Src/stm32f1xx_hal_dma.o" -o "HAL_Driver/Src/stm32f1xx_hal_dma.o" "../HAL_Driver/Src/stm32f1xx_hal_dma.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_eth.c
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_flash.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_eth.d" -MT"HAL_Driver/Src/stm32f1xx_hal_eth.o" -o "HAL_Driver/Src/stm32f1xx_hal_eth.o" "../HAL_Driver/Src/stm32f1xx_hal_eth.c"
+Finished building: ../src/system_stm32f1xx.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"HAL_Driver/Src/stm32f1xx_hal_flash.o" -o "HAL_Driver/Src/stm32f1xx_hal_flash.o" "../HAL_Driver/Src/stm32f1xx_hal_flash.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal.c
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_gpio.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_adc.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_flash_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_cec.c
+ 
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"HAL_Driver/Src/stm32f1xx_hal_gpio.o" -o "HAL_Driver/Src/stm32f1xx_hal_gpio.o" "../HAL_Driver/Src/stm32f1xx_hal_gpio.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_cortex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_crc.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_dac.c
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_dac_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_hcd.c
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_i2c.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_hcd.d" -MT"HAL_Driver/Src/stm32f1xx_hal_hcd.o" -o "HAL_Driver/Src/stm32f1xx_hal_hcd.o" "../HAL_Driver/Src/stm32f1xx_hal_hcd.c"
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_i2c.d" -MT"HAL_Driver/Src/stm32f1xx_hal_i2c.o" -o "HAL_Driver/Src/stm32f1xx_hal_i2c.o" "../HAL_Driver/Src/stm32f1xx_hal_i2c.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_i2s.c
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_irda.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_i2s.d" -MT"HAL_Driver/Src/stm32f1xx_hal_i2s.o" -o "HAL_Driver/Src/stm32f1xx_hal_i2s.o" "../HAL_Driver/Src/stm32f1xx_hal_i2s.c"
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_irda.d" -MT"HAL_Driver/Src/stm32f1xx_hal_irda.o" -o "HAL_Driver/Src/stm32f1xx_hal_irda.o" "../HAL_Driver/Src/stm32f1xx_hal_irda.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_iwdg.c
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_mmc.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_iwdg.d" -MT"HAL_Driver/Src/stm32f1xx_hal_iwdg.o" -o "HAL_Driver/Src/stm32f1xx_hal_iwdg.o" "../HAL_Driver/Src/stm32f1xx_hal_iwdg.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_dma.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_mmc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_mmc.o" -o "HAL_Driver/Src/stm32f1xx_hal_mmc.o" "../HAL_Driver/Src/stm32f1xx_hal_mmc.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_eth.c
+ 
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_msp_template.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_flash.c
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_msp_template.d" -MT"HAL_Driver/Src/stm32f1xx_hal_msp_template.o" -o "HAL_Driver/Src/stm32f1xx_hal_msp_template.o" "../HAL_Driver/Src/stm32f1xx_hal_msp_template.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_nand.c
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_nor.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_nand.d" -MT"HAL_Driver/Src/stm32f1xx_hal_nand.o" -o "HAL_Driver/Src/stm32f1xx_hal_nand.o" "../HAL_Driver/Src/stm32f1xx_hal_nand.c"
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_nor.d" -MT"HAL_Driver/Src/stm32f1xx_hal_nor.o" -o "HAL_Driver/Src/stm32f1xx_hal_nor.o" "../HAL_Driver/Src/stm32f1xx_hal_nor.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_pccard.c
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_pccard.d" -MT"HAL_Driver/Src/stm32f1xx_hal_pccard.o" -o "HAL_Driver/Src/stm32f1xx_hal_pccard.o" "../HAL_Driver/Src/stm32f1xx_hal_pccard.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_gpio.c
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_pcd.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_pcd.d" -MT"HAL_Driver/Src/stm32f1xx_hal_pcd.o" -o "HAL_Driver/Src/stm32f1xx_hal_pcd.o" "../HAL_Driver/Src/stm32f1xx_hal_pcd.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_pcd_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_hcd.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_i2c.c
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_pwr.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_rcc.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_i2s.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_irda.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Invoking: MCU GCC Compiler
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"HAL_Driver/Src/stm32f1xx_hal_pwr.o" -o "HAL_Driver/Src/stm32f1xx_hal_pwr.o" "../HAL_Driver/Src/stm32f1xx_hal_pwr.c"
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_rcc.o" -o "HAL_Driver/Src/stm32f1xx_hal_rcc.o" "../HAL_Driver/Src/stm32f1xx_hal_rcc.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_iwdg.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_mmc.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_rtc.c
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_msp_template.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_rtc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_rtc.o" -o "HAL_Driver/Src/stm32f1xx_hal_rtc.o" "../HAL_Driver/Src/stm32f1xx_hal_rtc.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_nand.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_rtc_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_rtc_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_rtc_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_nor.c
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_sd.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_smartcard.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_pccard.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_sd.d" -MT"HAL_Driver/Src/stm32f1xx_hal_sd.o" -o "HAL_Driver/Src/stm32f1xx_hal_sd.o" "../HAL_Driver/Src/stm32f1xx_hal_sd.c"
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_smartcard.d" -MT"HAL_Driver/Src/stm32f1xx_hal_smartcard.o" -o "HAL_Driver/Src/stm32f1xx_hal_smartcard.o" "../HAL_Driver/Src/stm32f1xx_hal_smartcard.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_spi.c
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_spi_ex.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_pcd.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_spi.d" -MT"HAL_Driver/Src/stm32f1xx_hal_spi.o" -o "HAL_Driver/Src/stm32f1xx_hal_spi.o" "../HAL_Driver/Src/stm32f1xx_hal_spi.c"
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_spi_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_spi_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_spi_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_spi_ex.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_sram.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_sram.d" -MT"HAL_Driver/Src/stm32f1xx_hal_sram.o" -o "HAL_Driver/Src/stm32f1xx_hal_sram.o" "../HAL_Driver/Src/stm32f1xx_hal_sram.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_tim.c
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"HAL_Driver/Src/stm32f1xx_hal_tim.o" -o "HAL_Driver/Src/stm32f1xx_hal_tim.o" "../HAL_Driver/Src/stm32f1xx_hal_tim.c"
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" -o "HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" "../HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_pwr.c
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_uart.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_usart.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"HAL_Driver/Src/stm32f1xx_hal_uart.o" -o "HAL_Driver/Src/stm32f1xx_hal_uart.o" "../HAL_Driver/Src/stm32f1xx_hal_uart.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_usart.d" -MT"HAL_Driver/Src/stm32f1xx_hal_usart.o" -o "HAL_Driver/Src/stm32f1xx_hal_usart.o" "../HAL_Driver/Src/stm32f1xx_hal_usart.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_hal_wwdg.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_rtc.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_wwdg.d" -MT"HAL_Driver/Src/stm32f1xx_hal_wwdg.o" -o "HAL_Driver/Src/stm32f1xx_hal_wwdg.o" "../HAL_Driver/Src/stm32f1xx_hal_wwdg.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_adc.c
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_crc.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_adc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_adc.o" -o "HAL_Driver/Src/stm32f1xx_ll_adc.o" "../HAL_Driver/Src/stm32f1xx_ll_adc.c"
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_crc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_crc.o" -o "HAL_Driver/Src/stm32f1xx_ll_crc.o" "../HAL_Driver/Src/stm32f1xx_ll_crc.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_sd.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_smartcard.c
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_dac.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_dma.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Invoking: MCU GCC Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_dac.d" -MT"HAL_Driver/Src/stm32f1xx_ll_dac.o" -o "HAL_Driver/Src/stm32f1xx_ll_dac.o" "../HAL_Driver/Src/stm32f1xx_ll_dac.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_spi.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_spi_ex.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_dma.d" -MT"HAL_Driver/Src/stm32f1xx_ll_dma.o" -o "HAL_Driver/Src/stm32f1xx_ll_dma.o" "../HAL_Driver/Src/stm32f1xx_ll_dma.c"
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_exti.c
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_fsmc.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_sram.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_exti.d" -MT"HAL_Driver/Src/stm32f1xx_ll_exti.o" -o "HAL_Driver/Src/stm32f1xx_ll_exti.o" "../HAL_Driver/Src/stm32f1xx_ll_exti.c"
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_fsmc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_fsmc.o" -o "HAL_Driver/Src/stm32f1xx_ll_fsmc.o" "../HAL_Driver/Src/stm32f1xx_ll_fsmc.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_gpio.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+Invoking: MCU GCC Compiler
+ 
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_gpio.d" -MT"HAL_Driver/Src/stm32f1xx_ll_gpio.o" -o "HAL_Driver/Src/stm32f1xx_ll_gpio.o" "../HAL_Driver/Src/stm32f1xx_ll_gpio.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_i2c.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_adc.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_tim.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_crc.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_i2c.d" -MT"HAL_Driver/Src/stm32f1xx_ll_i2c.o" -o "HAL_Driver/Src/stm32f1xx_ll_i2c.o" "../HAL_Driver/Src/stm32f1xx_ll_i2c.c"
+ 
+ 
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_pwr.c
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_rcc.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_uart.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_dac.c
+Invoking: MCU GCC Compiler
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_usart.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_hal_wwdg.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_dma.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_pwr.d" -MT"HAL_Driver/Src/stm32f1xx_ll_pwr.o" -o "HAL_Driver/Src/stm32f1xx_ll_pwr.o" "../HAL_Driver/Src/stm32f1xx_ll_pwr.c"
+ 
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_rcc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_rcc.o" -o "HAL_Driver/Src/stm32f1xx_ll_rcc.o" "../HAL_Driver/Src/stm32f1xx_ll_rcc.c"
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_exti.c
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_rtc.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_sdmmc.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_rtc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_rtc.o" -o "HAL_Driver/Src/stm32f1xx_ll_rtc.o" "../HAL_Driver/Src/stm32f1xx_ll_rtc.c"
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_sdmmc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_sdmmc.o" -o "HAL_Driver/Src/stm32f1xx_ll_sdmmc.o" "../HAL_Driver/Src/stm32f1xx_ll_sdmmc.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_gpio.c
+ 
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_spi.c
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_tim.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_i2c.c
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_spi.d" -MT"HAL_Driver/Src/stm32f1xx_ll_spi.o" -o "HAL_Driver/Src/stm32f1xx_ll_spi.o" "../HAL_Driver/Src/stm32f1xx_ll_spi.c"
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_tim.d" -MT"HAL_Driver/Src/stm32f1xx_ll_tim.o" -o "HAL_Driver/Src/stm32f1xx_ll_tim.o" "../HAL_Driver/Src/stm32f1xx_ll_tim.c"
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_fsmc.c
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_usart.c
+ 
+Invoking: MCU GCC Compiler
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_usb.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_usart.d" -MT"HAL_Driver/Src/stm32f1xx_ll_usart.o" -o "HAL_Driver/Src/stm32f1xx_ll_usart.o" "../HAL_Driver/Src/stm32f1xx_ll_usart.c"
+Invoking: MCU GCC Compiler
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_usb.d" -MT"HAL_Driver/Src/stm32f1xx_ll_usb.o" -o "HAL_Driver/Src/stm32f1xx_ll_usb.o" "../HAL_Driver/Src/stm32f1xx_ll_usb.c"
+Building file: ../HAL_Driver/Src/stm32f1xx_ll_utils.c
+Invoking: MCU GCC Compiler
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_pwr.c
+C:\SW4STM32_WORKSPACE\TIMER_PWM_MOTOR_MANUAL\Debug
+ 
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32 -DSTM32F1 -DSTM32F102C8Tx -DDEBUG -DSTM32F102x6 -DUSE_HAL_DRIVER -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc/Legacy" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/inc" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/device" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/CMSIS/core" -I"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_utils.d" -MT"HAL_Driver/Src/stm32f1xx_ll_utils.o" -o "HAL_Driver/Src/stm32f1xx_ll_utils.o" "../HAL_Driver/Src/stm32f1xx_ll_utils.c"
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_rcc.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_rtc.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_spi.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_tim.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_sdmmc.c
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_usart.c
+ 
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_usb.c
+ 
+Finished building: ../HAL_Driver/Src/stm32f1xx_ll_utils.c
+ 
+Building target: TIMER_PWM_MOTOR_MANUAL.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"C:/SW4STM32_WORKSPACE/TIMER_PWM_MOTOR_MANUAL/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "TIMER_PWM_MOTOR_MANUAL.elf" @"objects.list"   -lm
+Finished building target: TIMER_PWM_MOTOR_MANUAL.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "TIMER_PWM_MOTOR_MANUAL.elf" "TIMER_PWM_MOTOR_MANUAL.bin"
+arm-none-eabi-size "TIMER_PWM_MOTOR_MANUAL.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1024	   1088	   1092	   3204	    c84	TIMER_PWM_MOTOR_MANUAL.elf
+ 
+
+10:33:28 Build Finished (took 16s.578ms)
+

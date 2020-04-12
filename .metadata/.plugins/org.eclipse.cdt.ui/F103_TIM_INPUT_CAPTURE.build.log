@@ -1,0 +1,7 @@
+10:57:07 **** Clean-only build of configuration Debug for project F103_TIM_INPUT_CAPTURE ****
+make clean 
+rm -rf *
+ 
+
+10:57:07 Build Finished (took 507ms)
+

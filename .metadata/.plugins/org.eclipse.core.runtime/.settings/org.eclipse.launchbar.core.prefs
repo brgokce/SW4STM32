@@ -1,0 +1,17 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:F103_TIMER_PWM_OUTPUT Debug,org.eclipse.launchbar.core.descriptorType.default\:New_configuration,org.eclipse.launchbar.core.descriptorType.default\:New_configuration (2),org.eclipse.launchbar.core.descriptorType.default\:New_configuration (1),org.eclipse.launchbar.core.descriptorType.default\:F103_VIZE_SORU_ORNEGI Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_BAHAR_Vize Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_UNIPOLAR_STEP_MOTOR_ENCODER Run,org.eclipse.launchbar.core.descriptorType.default\:F103_TIM_INPUT_CAPTURE Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_TIM_PWM_INPUT Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_TIM_TIME_BASE_INTERRUPT Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_TIM_OUTPUT_COMPARE_TOGGLE Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_I2C_SLAVE_USART Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_I2C_SLAVE_USART2_IT Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_I2C_MASTER_ADC2_IT Debug,org.eclipse.launchbar.core.descriptorType.default\:F103_I2C_MASTER_ADC Debug,org.eclipse.launchbar.core.descriptorType.default\:New_configuration (3)
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:F103_BAHAR_Vize\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:F103_BAHAR_Vize\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:F103_I2C_MASTER_ADC\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:F103_I2C_MASTER_ADC2_IT\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:F103_I2C_SLAVE_USART\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:F103_TIMER_PWM_OUTPUT\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:F103_TIMER_PWM_OUTPUT\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:F103_TIM_PWM_INPUT\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:F103_UNIPOLAR_STEP_MOTOR_ENCODER\ Run/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration\ (2)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration\ (3)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchMode=run

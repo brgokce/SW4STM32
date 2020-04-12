@@ -1,0 +1,7 @@
+10:56:49 **** Clean-only build of configuration Debug for project F103_I2C_MASTER_ADC ****
+make clean 
+rm -rf *
+ 
+
+10:56:51 Build Finished (took 2s.553ms)
+

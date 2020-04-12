@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 5 resources" deleteContents="false" description="Delete 5 resources" element1="/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/Release_Notes.html" element2="/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/STM32F100xE_User_Manual.chm" element3="/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/STM32F103xB_User_Manual.chm" element4="/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/STM32F103xG_User_Manual.chm" element5="/TIMER_PWM_MOTOR_MANUAL/HAL_Driver/STM32F107xC_User_Manual.chm" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="5" stamp="1554881457601"/>
+</session>
